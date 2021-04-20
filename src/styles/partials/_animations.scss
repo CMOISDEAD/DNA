@@ -1,0 +1,17 @@
+@keyframes Arrow-move{
+    from{
+        margin-top: 25vh;
+    }
+    to{
+        margin-top: 30vh;
+    }
+}
+
+@keyframes up-icon{
+    0%{
+        transform:translateY(0px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}

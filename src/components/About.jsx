@@ -1,0 +1,42 @@
+import React from 'react'
+
+const About = () => {
+    return (
+        <div className="row">
+            <div className="col">
+                <div className="text-center h2 mb-5 text-nord0">
+                    About Me
+                </div>
+                <div className="mb-5 text-nord1">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis dignissimos numquam excepturi sapiente consectetur placeat inventore harum, dolores rerum? Ullam voluptatum doloremque iste reprehenderit quos dolore error. Laboriosam, nostrum.
+                    Officiis molestias in illum illo placeat harum cumque deserunt voluptas at, sunt error debitis velit nulla dolore odio ad ipsum quo nemo. Debitis tenetur rem culpa reprehenderit. Omnis, enim quae.
+                </div>
+                <div className="text-center h2 mb-5 text-nord0">
+                    Skills :
+                </div>
+                <div className="skills text-nord1 text-center">
+                    <i className="fab fa-html5"><p className="text-center">html5</p></i>
+                    <i className="fab fa-css3"><p className="text-center">css3</p></i>
+                    <i className="fab fa-js"><p className="text-center">javascript</p></i>
+                    <i className="fab fa-react"><p className="text-center">react</p></i>
+                    <i className="fab fa-node-js"><p className="text-center">nodejs</p></i>
+                    <i className="fab fa-bootstrap"><p className="text-center">bootstrap</p></i>
+                    <i className="fab fa-npm"><p className="text-center">npm</p></i>
+                    <i className="fab fa-sass"><p className="text-center">sass</p></i>
+                    <i className="fab fa-git-alt"><p className="text-center">git</p></i>
+                    <i className="fab fa-github-alt"><p className="text-center">github</p></i>
+                    <i className="fab fa-linux"><p className="text-center">linux</p></i>
+                    <i className="fab fa-python"><p className="text-center">python</p></i>
+                </div>
+            </div>
+            <div className="col">
+                <div className="my-image-container">
+                    <img src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" className="rounded float-end" alt="..." />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+export default About

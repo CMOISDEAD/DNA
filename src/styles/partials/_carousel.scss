@@ -1,0 +1,32 @@
+.carousel-inner {
+    > .carousel-item {
+        z-index: 1;
+        > img {
+            height: 92vh;
+        }
+    }
+}
+
+.carousel-text{
+    position: absolute;
+    margin-top: -70vh;
+    margin-left: 8vw;
+    z-index: 100;
+    
+    .banner-text{
+        font-family: 'Libre Barcode 39 Text', cursive;
+        font-size: 8rem;
+
+        &:hover {
+            color: white !important;
+        }
+    }
+
+    .arrow-down{
+        margin-top: 30vh;
+        font-size: 3rem;
+        animation: Arrow-move infinite alternate ease 0.9s;
+    }
+}
+
+
