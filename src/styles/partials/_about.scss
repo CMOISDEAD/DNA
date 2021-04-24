@@ -1,4 +1,36 @@
-.my-image{
-    height: 10vh !important;
+.my-image-container > img {
+  // height: 10vh !important;
+    transition: all 0.5s ease;
+    &:hover {
+    transform: rotate(-15deg);
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+    }
 }
 
+.skills {
+    .skill-icons {
+        font-size: 3rem;
+        margin: 1rem;
+        transition: all 0.5s ease-out;
+        & > p {
+            display: none;
+            font-size: 1rem;
+            font-family: "Courier New", Courier, monospace;
+            text-transform: uppercase;
+            transition: all 0.5s ease-out;
+        }
+        &:hover {
+            color: $nord3;
+            transition: all 0.5s ease-out;
+            transform: translateY(-30px);
+
+        & > p {
+            display: block;
+            position: absolute;
+            transition: all 0.5s ease-out;
+            text-align: center !important;
+        }
+    }
+}
+}

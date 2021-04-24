@@ -15,31 +15,3 @@
 p {
   color: $nord1;
 }
-
-.skills {
-  i {
-    // width: 5vw;
-    // height: auto;
-    font-size: 3rem;
-    margin: 1rem;
-    transition: all 0.5s ease-out;
-    & > p {
-      display: none;
-      font-size: 1rem;
-      font-family: "Courier New", Courier, monospace;
-      text-transform: uppercase;
-      transition: all 0.5s ease-out;
-    }
-    &:hover {
-      color: $nord3;
-      transition: all 0.5s ease-out;
-      transform: translateY(-30px);
-
-      & > p {
-        display: block;
-        position: absolute;
-        transition: all 0.5s ease-out;
-      }
-    }
-  }
-}

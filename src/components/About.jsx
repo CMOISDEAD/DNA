@@ -15,18 +15,18 @@ const About = () => {
                     Skills :
                 </div>
                 <div className="skills text-nord1 text-center">
-                    <i className="fab fa-html5"><p className="text-center">html5</p></i>
-                    <i className="fab fa-css3"><p className="text-center">css3</p></i>
-                    <i className="fab fa-js"><p className="text-center">javascript</p></i>
-                    <i className="fab fa-react"><p className="text-center">react</p></i>
-                    <i className="fab fa-node-js"><p className="text-center">nodejs</p></i>
-                    <i className="fab fa-bootstrap"><p className="text-center">bootstrap</p></i>
-                    <i className="fab fa-npm"><p className="text-center">npm</p></i>
-                    <i className="fab fa-sass"><p className="text-center">sass</p></i>
-                    <i className="fab fa-git-alt"><p className="text-center">git</p></i>
-                    <i className="fab fa-github-alt"><p className="text-center">github</p></i>
-                    <i className="fab fa-linux"><p className="text-center">linux</p></i>
-                    <i className="fab fa-python"><p className="text-center">python</p></i>
+                    <i className="fab fa-html5 skill-icons "><p className="text-center">html5</p></i>
+                    <i className="fab fa-css3 skill-icons "><p className="text-center">css3</p></i>
+                    <i className="fab fa-js skill-icons "><p className="text-center">javascript</p></i>
+                    <i className="fab fa-react skill-icons "><p className="text-center">react</p></i>
+                    <i className="fab fa-node-js skill-icons "><p className="text-center">nodejs</p></i>
+                    <i className="fab fa-bootstrap skill-icons"><p className="text-center">bootstrap</p></i>
+                    <i className="fab fa-npm skill-icons "><p className="text-center">npm</p></i>
+                    <i className="fab fa-sass skill-icons "><p className="text-center">sass</p></i>
+                    <i className="fab fa-git-alt skill-icons "><p className="text-center">git</p></i>
+                    <i className="fab fa-github-alt skill-icons "><p className="text-center">github</p></i>
+                    <i className="fab fa-linux skill-icons "><p className="text-center">linux</p></i>
+                    <i className="fab fa-python skill-icons "><p className="text-center">python</p></i>
                 </div>
             </div>
             <div className="col">
