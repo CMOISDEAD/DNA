@@ -8,9 +8,9 @@
 }
 
 .carousel-text{
-    position: absolute;
-    margin-top: -70vh;
-    margin-left: 8vw;
+    // position: absolute;
+    // margin-top: 20vh;
+    // margin: 10vw;
     z-index: 100;
     
     .banner-text{
@@ -23,10 +23,24 @@
     }
 
     .arrow-down{
-        margin-top: 30vh;
-        font-size: 3rem;
+        font-size: 35rem !important;
+        color:$nord4;
         animation: Arrow-move infinite alternate ease 0.9s;
     }
 }
 
+.slider{
+    width: auto;
+    height: 90vh;
+    background: url("https://wallpapercave.com/wp/wp5411734.jpg") center center no-repeat;
+    background-size: cover;
+}
 
+.imagensvg{
+    width: 42vw;
+    height: auto;
+}
+
+.mt-9{
+    margin-top: 30vh;
+}

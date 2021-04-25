@@ -1,8 +1,24 @@
-.card-horizontal{
+.card-horizontal {
     max-width: 95vw !important;
 }
 
-.image-projects{
+.image-projects {
     width: auto;
     height: 35vh;
+}
+
+.shadow-box {
+    box-shadow: 2px 8px 11px -1px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 8px 11px -1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 8px 11px -1px rgba(0,0,0,0.73);
+}
+
+.shadow-box-footer{
+    box-shadow: 0px -7px 17px -4px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px -7px 17px -4px rgba(0,0,0,1);
+    -moz-box-shadow: -1px -7px 17px -4px rgba(0,0,0,1);
+}
+
+#skills{
+    background: none;
 }

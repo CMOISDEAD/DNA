@@ -1,0 +1,7 @@
+.link-proper{
+    transition: all .5s ease;
+
+    &:hover{
+        color: $nord10 !important;
+    }
+}
