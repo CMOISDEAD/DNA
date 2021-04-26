@@ -38,6 +38,7 @@ const Homepage = () => {
                         <Chart icon="node-js" title="Nodejs" description="lorem" footer="3" />
                     </div>
                 </div>
+                <hr/>
                 <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Projects ">My Projects</div>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
@@ -45,6 +46,7 @@ const Homepage = () => {
                     <Projects image={project3} title="Blog University" description="University blog developed in react with different entries." link="https://github.com/CMOISDEAD/BlogUniQ" />
                     <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
                 </div>
+                <hr/>
                 <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Contact">Contact Me</div>
                 <Contact />
             </div>
