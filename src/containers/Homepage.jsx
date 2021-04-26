@@ -4,6 +4,7 @@ import Slider from '../components/Slider'
 import About from '../components/About'
 import Chart from '../components/Chart'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import '../styles/main.scss'
 
@@ -24,25 +25,28 @@ const Homepage = () => {
         <div>
             <Navbar img={logo} />
             <Slider imgSlider1={imgSlider1} imgSlider2={imgSlider2} imgSlider3={imgSlider3} />
+            <hr/>
             <div className="container mt-5">
                 <div className="aboutMe" id="About">
                     <About />
                 </div>
                 <div className="skills" id="Skills">
-                    <div className="h1 text-center text-nord0 m-5" >My Talents</div>
+                    <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase">My Talents</div>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <Chart icon="js" title="Javascript" description="lorem" footer="1" />
                         <Chart icon="react" title="React" description="lorem" footer="2" />
                         <Chart icon="node-js" title="Nodejs" description="lorem" footer="3" />
                     </div>
                 </div>
-                <div className="h1 text-center text-nord0 m-5" id="Projects">My Projects</div>
+                <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Projects ">My Projects</div>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
                     <Projects image={project2} title="Riot Games api" description="Application that uses the API provided by Riot Games." link="https://github.com/CMOISDEAD/DROPSTATS" />
                     <Projects image={project3} title="Blog University" description="University blog developed in react with different entries." link="https://github.com/CMOISDEAD/BlogUniQ" />
+                    <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
                 </div>
-                <div className="h1 text-center text-nord0 m-5" id="Contact">Contact Me</div>
+                <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Contact">Contact Me</div>
+                <Contact />
             </div>
             <Footer/>
         </div>

@@ -4,14 +4,14 @@ const About = () => {
     return (
         <div className="row">
             <div className="col">
-                <div className="text-center h2 mb-5 text-nord0">
+                <div className="text-center h1 mb-5 text-nord0 title-text text-uppercase">
                     About Me
                 </div>
                 <div className="mb-5 text-nord1">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis dignissimos numquam excepturi sapiente consectetur placeat inventore harum, dolores rerum? Ullam voluptatum doloremque iste reprehenderit quos dolore error. Laboriosam, nostrum.
                     Officiis molestias in illum illo placeat harum cumque deserunt voluptas at, sunt error debitis velit nulla dolore odio ad ipsum quo nemo. Debitis tenetur rem culpa reprehenderit. Omnis, enim quae.
                 </div>
-                <div className="text-center h2 mb-5 text-nord0">
+                <div className="text-center h3 mb-5 text-nord0 title-text text-uppercase">
                     Skills :
                 </div>
                 <div className="skills text-nord1 text-center">

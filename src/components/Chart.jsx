@@ -4,16 +4,16 @@ const Chart = (props) => {
 
     return (
         <div className="col">
-            <div className="card text-nord4">
+            <div className="card text-nord4 card-gradient">
                 <div className="shadow-box">
-                    <div className="card-header bg-nord0 text-center text-uppercase">
+                    <div className="card-header text-center text-uppercase">
                         <i className={`fab fa-${props.icon} h1`}> {props.title}</i>
 
                     </div>
-                    <div className="card-body bg-nord1 text-center">
+                    <div className="card-body text-center">
                         {props.description}
                     </div>
-                    <div className="card-footer bg-nord0 text-center">
+                    <div className="card-footer text-center">
                         {props.footer}
                     </div>
                 </div>

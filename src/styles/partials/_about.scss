@@ -12,24 +12,25 @@
     .skill-icons {
         font-size: 3rem;
         margin: 1rem;
-        transition: all 0.5s ease-out;
+        transition: all 0.5s ease;
         & > p {
             display: none;
             font-size: 1rem;
             font-family: "Courier New", Courier, monospace;
             text-transform: uppercase;
-            transition: all 0.5s ease-out;
+            transition: all 0.5s ease;
         }
         &:hover {
             color: $nord3;
-            transition: all 0.5s ease-out;
             transform: translateY(-30px);
 
         & > p {
             display: block;
             position: absolute;
-            transition: all 0.5s ease-out;
-            text-align: center !important;
+            background-color: $nord1;
+            color:$nord4;
+            padding-left: .5rem;
+            padding-right: .5rem;
         }
     }
 }
