@@ -4,11 +4,10 @@ const Chart = (props) => {
 
     return (
         <div className="col">
-            <div className="card text-nord4 card-gradient">
+            <div className="card card-outline-nord">
                 <div className="shadow-box">
                     <div className="card-header text-center text-uppercase">
                         <i className={`fab fa-${props.icon} h1`}> {props.title}</i>
-
                     </div>
                     <div className="card-body text-center">
                         {props.description}

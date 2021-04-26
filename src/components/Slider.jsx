@@ -1,5 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 import logo from '../assets/coding.svg'
+
+import Highlight from 'react-highlight'
+// import hljs from 'highlight.js/lib/core';
+// import 'highlight.js/styles/nord.css';
+// import javascript from 'highlight.js/lib/languages/javascript';
+// hljs.registerLanguage('javascript', javascript);
 
 const Slider = (props) => {
     return (
@@ -8,15 +14,25 @@ const Slider = (props) => {
                 <div className="row mx-auto">
                     <div className="col p-5">
                         <p className="h5 banner-text text-center text-nord1">DROPDEADS</p>
-                        <p className="text-nord2">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus libero atque accusantium excepturi
-                            sapiente quos mollitia iusto incidunt alias architecto rem sapiente quos mollitia iusto incidunt alias architecto rem 
-                            laudantium, amet perspiciatis eveniet iste repudiandae
-                            voluptatibus repellendus!
-                        </p>
+                        <Highlight className='javascript mt-9'>
+                            {"// By DROPDEADS"}
+                            {"\n"}
+                            {"var developer = 'Camilo'"}
+                            {"\n"}
+                            {"\nconst bestDeveloper = (name) => {"}
+                            {"\n   name == 'Camilo'? ("}
+                            {"\n   return `${name} is the best in the world!!!`"}
+                            {"\n   ) : ("}
+                            {"\n   return 'Sorry but you dont are the best developer in the world!'"}
+                            {"\n   )"}
+                            {"\n}"}
+                            {"\nconsole.log(bestDeveloper(developer))"}
+                            {"\n"}
+                            {"// If you do not understand what is written, I will help you know ... YOU NEED ME."}
+                        </Highlight>
                         <div className="d-grid gap-2 mt-9">
-                            <button className="btn btn-outline-dark" type="button">Contact Me</button>
-                            <button className="btn btn-dark" type="button">Know More</button>
+                            <button className="btn btn-outline-nord" type="button">Contact Me</button>
+                            <button className="btn btn-nord" type="button">Know More</button>
                         </div>
                     </div>
                     <div className="col-auto">
