@@ -24,3 +24,38 @@ p {
 .title-text{
   font-family: 'Oswald', sans-serif;
 }
+
+.important-text{
+  background: -webkit-linear-gradient($nord15, $nord11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.important-link{
+  background: -webkit-linear-gradient($nord15, $nord11);
+  font-size: 1rem;
+  text-transform: uppercase !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease;
+  &:hover{
+    animation: rainbow-text infinite alternate ease 0.4s;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em !important;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: $nord4;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $nord1;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+}

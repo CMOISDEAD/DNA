@@ -8,8 +8,8 @@ const About = () => {
                     About Me
                 </div>
                 <div className="mb-5 text-nord1">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis dignissimos numquam excepturi sapiente consectetur placeat inventore harum, dolores rerum? Ullam voluptatum doloremque iste reprehenderit quos dolore error. Laboriosam, nostrum.
-                    Officiis molestias in illum illo placeat harum cumque deserunt voluptas at, sunt error debitis velit nulla dolore odio ad ipsum quo nemo. Debitis tenetur rem culpa reprehenderit. Omnis, enim quae.
+                    Lorem, ipsum dolor sit amet consectetur <b className="important-text">adipisicing</b> elit. Ratione facilis dignissimos numquam excepturi sapiente consectetur placeat inventore harum, dolores rerum? Ullam voluptatum doloremque iste reprehenderit quos dolore error. Laboriosam, nostrum.
+                    Officiis molestias in <b className="important-text">illum illo placeat</b> harum cumque deserunt voluptas at, sunt error debitis velit nulla dolore odio ad ipsum quo nemo. Debitis tenetur rem culpa reprehenderit. Omnis, enim quae.
                 </div>
                 <div className="text-center h3 mb-5 text-nord0 title-text text-uppercase">
                     Skills :

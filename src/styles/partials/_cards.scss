@@ -26,21 +26,27 @@
 }
 
 .card-outline-nord{
-    background-color: white !important;
-    border: 1px solid $nord1 !important;
-    color:$nord1 !important;
+    //background-color: white !important;
+    // border: 1px solid $nord1 !important;
+    // color:$nord1 !important;
 
-    .card-header{
-        border-bottom: 1px solid $nord1 !important;
-        background-color: white !important;
-    }
+    // .card-header{
+    //     border-bottom: 1px solid $nord1 !important;
+    //     background-color: white !important;
+    // }
 
+    // .card-body{
+    //     color:$nord1 !important;;
+    // }
+
+    // .card-footer{
+    //     border-top: 1px solid $nord1 !important;
+    //     background-color: white !important;
+    // }
+
+    background-color: $nord1 !important;
+    color: $nord4 !important;
     .card-body{
-        color:$nord1 !important;;
-    }
-
-    .card-footer{
-        border-top: 1px solid $nord1 !important;
-        background-color: white !important;
+        color:$nord4 !important;
     }
 }

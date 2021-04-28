@@ -11,6 +11,7 @@ import '../styles/main.scss'
 import project1 from '../assets/images/dropweb.png'
 import project2 from '../assets/images/newdropview.png'
 import project3 from '../assets/images/bloquniq.png'
+import project4 from '../assets/images/landing.png'
 
 
 // ?Variables.
@@ -25,7 +26,7 @@ const Homepage = () => {
         <div>
             <Navbar img={logo} />
             <Slider imgSlider1={imgSlider1} imgSlider2={imgSlider2} imgSlider3={imgSlider3} />
-            <hr/>
+            <hr />
             <div className="container mt-5">
                 <div className="aboutMe" id="About">
                     <About />
@@ -38,19 +39,19 @@ const Homepage = () => {
                         <Chart icon="node-js" title="Nodejs" description="lorem" footer="3" />
                     </div>
                 </div>
-                <hr/>
+
                 <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Projects ">My Projects</div>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
                     <Projects image={project2} title="Riot Games api" description="Application that uses the API provided by Riot Games." link="https://github.com/CMOISDEAD/DROPSTATS" />
                     <Projects image={project3} title="Blog University" description="University blog developed in react with different entries." link="https://github.com/CMOISDEAD/BlogUniQ" />
-                    <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
+                    <Projects image={project4} title="Landig Page" description="A Landing page fot a blog and more." />
                 </div>
-                <hr/>
+
                 <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Contact">Contact Me</div>
                 <Contact />
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

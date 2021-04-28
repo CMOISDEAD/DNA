@@ -15,3 +15,21 @@
         transform: translateY(-30px);
     }
 }
+
+@keyframes rainbow-text{
+    0%{
+        background: -webkit-linear-gradient(#88C0D0, #BF616A);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50%{
+        background: -webkit-linear-gradient(#D08770, #A3BE8C);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: -webkit-linear-gradient(#B48EAD, #EBCB8B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

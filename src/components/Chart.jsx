@@ -9,8 +9,8 @@ const Chart = (props) => {
                     <div className="card-header text-center text-uppercase">
                         <i className={`fab fa-${props.icon} h1`}> {props.title}</i>
                     </div>
-                    <div className="card-body text-center">
-                        {props.description}
+                    <div className="card-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed et! Mollitia?
                     </div>
                     <div className="card-footer text-center">
                         {props.footer}

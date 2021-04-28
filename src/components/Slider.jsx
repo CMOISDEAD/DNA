@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
+import Modal from './Modal'
 import logo from '../assets/coding.svg'
 
 import Highlight from 'react-highlight'
-// import hljs from 'highlight.js/lib/core';
-// import 'highlight.js/styles/nord.css';
-// import javascript from 'highlight.js/lib/languages/javascript';
-// hljs.registerLanguage('javascript', javascript);
 
 const Slider = (props) => {
     return (
@@ -13,7 +10,7 @@ const Slider = (props) => {
             <div className="carousel-text">
                 <div className="row mx-auto">
                     <div className="col p-5">
-                        <p className="h5 banner-text text-center text-nord1">DROPDEADS</p>
+                        <p className="h5 banner-text text-center text-nord1">Developer</p>
                         <Highlight className='javascript mt-9'>
                             {"// By DROPDEADS"}
                             {"\n"}
@@ -31,7 +28,7 @@ const Slider = (props) => {
                             {"// If you do not understand what is written, I will help you know ... YOU NEED ME."}
                         </Highlight>
                         <div className="d-grid gap-2 mt-9">
-                            <button className="btn btn-outline-nord" type="button">Contact Me</button>
+                            <button className="btn btn-outline-nord" type="button" data-bs-toggle="modal" data-bs-target="#contactMe">Contact Me</button>
                             <button className="btn btn-nord" type="button">Know More</button>
                         </div>
                     </div>
@@ -47,6 +44,7 @@ const Slider = (props) => {
                     </div>
                 </div>
             </div>
+            <Modal id="contactMe" />
         </div>
     )
 }
