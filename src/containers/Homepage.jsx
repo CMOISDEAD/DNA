@@ -1,4 +1,6 @@
 import React from 'react'
+// import ScrollReveal from 'scrollreveal'
+
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
 import About from '../components/About'
@@ -20,6 +22,7 @@ const imgSlider1 = "https://preview.redd.it/4q2as98u1jy41.png?width=1920&format=
 const imgSlider2 = "https://i.redd.it/uckgbxxfvdr21.png"
 const imgSlider3 = "https://fondosmil.com/fondo/29364.jpg"
 
+// ScrollReveal().reveal('.headline')
 
 const Homepage = () => {
     return (
@@ -40,7 +43,7 @@ const Homepage = () => {
                     </div>
                 </div>
 
-                <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Projects ">My Projects</div>
+                <div className="h1 text-center text-nord0 mt-5 mb-5 title-text text-uppercase" id="Projects">My Projects</div>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <Projects image={project1} title="Task Manager" description="An application for managing tasks, developed using: React, Sass, Javascript and other technologies." link="https://github.com/CMOISDEAD/DropTask" />
                     <Projects image={project2} title="Riot Games api" description="Application that uses the API provided by Riot Games." link="https://github.com/CMOISDEAD/DROPSTATS" />

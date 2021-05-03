@@ -4,7 +4,7 @@ const Navbar = (props) => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-nord1 ">
             <div className="container-fluid">
-                <a className="navbar-brand text-nord4 main-text-code mo-4" href="#">DropDev</a>
+                <a className="navbar-brand text-nord4 main-text-code mo-4 owald" href="#">DropDev</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

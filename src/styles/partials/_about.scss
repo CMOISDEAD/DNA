@@ -1,4 +1,6 @@
 .my-image-container > img {
+    width: 40vw;
+    max-height: auto;
   // height: 10vh !important;
     transition: all 0.5s ease;
     &:hover {

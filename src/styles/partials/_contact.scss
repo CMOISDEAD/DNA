@@ -1,5 +1,13 @@
 .coding-svg{
     width: 40vw;
     height: auto;
-    margin-top: -15vh;
+    margin-top: -10vh;
+}
+
+.text-game{
+    font-family: 'Press Start 2P', cursive;
+    transition: all .5s ease;
+    &:hover{
+        color: $nord11 !important;
+    }
 }

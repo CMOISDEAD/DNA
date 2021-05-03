@@ -1,15 +1,27 @@
-import React from "react";
+import React from 'react'
 
 const Footer = () => {
-    return (
-        <div className="bg-nord1 text-nord4 shadow-box-footer">
-            <div className="container">
-                <div className="text-center">
-                    By DROPDEADS ©
-                </div>
-            </div>
+  return (
+    <div className="bg-nord1 text-nord4 shadow-box-footer">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <div className="text-center">By DROPDEADS © 2021 All right reserved.</div>
+          </div>
+          <div className="col">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, et
+            quaerat esse, doloribus rerum animi, repudiandae provident!
+          </div>
+          <div className="col">
+              all illustration are from Freepik Storyset:
+            <a href="https://storyset.com/web">
+              Illustration by Freepik Storyset
+            </a>
+          </div>
         </div>
-    );
-};
+      </div>
+    </div>
+  )
+}
 
-export default Footer;
+export default Footer
