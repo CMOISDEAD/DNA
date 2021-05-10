@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="mb-5 mt-5">
+    <div className="mb-5 mt-5 contact-section">
       <div className="row mx-auto">
         <div className="col">
           <div className="text-center">
@@ -12,7 +12,7 @@ const Contact = () => {
                 <i className="fab fa-github"></i>{' '}
                 <a
                   className="important-link"
-                  href="https://linkedin.com"
+                  href="https://github.com/CMOISDEAD"
                   target="_BLANK"
                   rel="noreferrer"
                 >
@@ -36,7 +36,7 @@ const Contact = () => {
                 <i className="fab fa-twitter"></i>{' '}
                 <a
                   className="important-link"
-                  href="https://linkedin.com"
+                  href="https://twitter.com"
                   target="_BLANK"
                   rel="noreferrer"
                 >
@@ -48,7 +48,7 @@ const Contact = () => {
                 <i className="fas fa-paper-plane"></i>
                 <a
                   className="important-link"
-                  href="https://www.github.com"
+                  href="mailto:camiloesteban661@gmail.com"
                   target="_BLANK"
                   rel="noreferrer"
                 >
@@ -59,7 +59,7 @@ const Contact = () => {
             </ul>
           </div>
         </div>
-        <div className="col mx-auto">
+        <div className="col mx-auto inie">
           {/* <img src={logo} alt="StorysetImage" className="coding-svg" /> */}
           <div className="text-center text-uppercase fs-2 fw-bold ">
             <span className="text-game text-nord1">

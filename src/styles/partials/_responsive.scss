@@ -1,0 +1,26 @@
+// !Max-width 600
+@media (max-width: 600px) {
+  // ?Slider
+  .banner-text {
+    font-size: 3.4rem !important;
+  }
+  .imagensvg {
+    display: none;
+  }
+  // ?About
+  .about {
+    display: inline-block !important;
+
+    .my-image-container{
+      margin: auto;
+      width: 30vw;
+    }
+  }
+  // ?Contact
+  .contact-section{
+    // display: inline-block !important;
+    .inie{
+      display: none;
+    }
+  }
+}

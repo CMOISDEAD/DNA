@@ -19,6 +19,9 @@ const Navbar = (props) => {
                         <li className="nav-item">
                             <a className="nav-link text-nord4 main-page-text" href="#Contact">Contact</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-nord4 main-page-text" href="https://mydlog.netlify.app/" target="_blank" rel="noreferrer">Blog</a>
+                        </li>
                     </ul>
                     <span className="navbar-text text-nord4 main-page-text">
                         Do More.

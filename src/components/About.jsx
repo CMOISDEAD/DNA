@@ -4,7 +4,7 @@ import image from '../assets/images/imagei.jpeg'
 
 const About = () => {
     return (
-        <div className="row">
+        <div className="row about">
             <div className="col">
                 <div className="text-center h1 mb-5 text-nord0 title-text text-uppercase">
                     About Me
@@ -64,11 +64,11 @@ const About = () => {
                 </div>
             </div>
             <div className="col">
-                <div className="my-image-container">
+                <div className="my-image-container text-center">
                     <img
                         // src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg"
                         src={image}
-                        className="rounded float-end my-image"
+                        className="rounded  my-image"
                         alt="..."
                     />
                 </div>
